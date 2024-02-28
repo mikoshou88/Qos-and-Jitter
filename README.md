@@ -41,10 +41,16 @@ Untuk mendapatkan parameter Time di Wireshark, kalian terlebih dahulu menonton y
 #### 10. Disini data-data nya ada `Time, Source, Destination, Protocol, Length, Info` dan terlihat berantakan, kalian atur terlebih dahulu dan kita hanya memerlukan data dari Time.
 ![10](10.jpg)
 
-#### 11. Lalu kita buat `Time1, Time2 dan Delay` Time1 kita ambil dari Time, Time2 kita ambil dari Time waktu ke 2, dan untuk mencari Delay dengan cara Time2 - Time1.
+#### 11. Lalu kita buat `Time1, Time2 dan Delay` Time1 kita ambil dari Time, Time2 kita ambil dari Time waktu ke 2, dan untuk mencari Delay dengan cara Time2 dikurang Time1.
 ![11](11.jpg)
 
 #### 12. Untuk mencari Total Delay kita jumlahkan seluruh delay, dan untuk mencari Rata-rata Delay dengan cara Total Delay dibagi dengan Paket Diterima.
 ![12](12.jpg)
 
-#### 13. Oke, selanjutnya kita akan menghitung `Jitter`, kita harus membuat `Delay1, Delay2 dan Jitter` Delay1 kita ambil dari nilai Delay yang pertama dikurangi dengan Delay yang kedua, Delay2 kita ambil dari nilai Delay yang kedua, dan Jitter hasil dari Delay2 dikurang Delay1.
+#### 13. Oke, selanjutnya kita akan menghitung `Jitter`, kita harus membuat `Delay1, Delay2 dan Jitter` Delay1 kita ambil dari nilai Delay waktu yang pertama dikurangi dengan Delay waktu kedua, Delay2 kita ambil dari nilai Delay waktu yang kedua, dan Jitter hasil dari Delay2 dikurang Delay1.
+![13](15.jpg)
+
+#### 14. Untuk mencari Total Jitter kita jumlahkan seluruh Jitter, dan untuk mencari Rata-rata Jitter dengan cara Total Delay dibagi dengan Paket Diterima.
+![14](16.jpg)
+![15](17.jpg)
+
