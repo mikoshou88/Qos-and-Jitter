@@ -15,4 +15,4 @@ Untuk mendapatkan parameter Time di Wireshark, kalian terlebih dahulu menonton y
 ![1](1.jpg)
 
 #### 2. Lalu buka Wireshark lagi dan data-data parameter akan keluar
-![2](2.jpg)
+![2](3.jpg)
