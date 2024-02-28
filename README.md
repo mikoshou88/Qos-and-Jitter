@@ -13,3 +13,6 @@ Untuk mendapatkan parameter Time di Wireshark, kalian terlebih dahulu menonton y
 
 #### 1. Buka Wireshark dan pilih wifi lalu buka youtube dan tonton sampai waktu yang ditentukan.
 ![1](1.jpg)
+
+#### 2. Lalu buka Wireshark lagi dan data-data parameter akan keluar
+![2](2.jpg)
