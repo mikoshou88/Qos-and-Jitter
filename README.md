@@ -17,4 +17,11 @@ Untuk mendapatkan parameter Time di Wireshark, kalian terlebih dahulu menonton y
 #### 2. Lalu buka Wireshark lagi dan data-data parameter akan keluar, dari Time, Source, Destination dan lainnya.
 ![2](3.jpg)
 
-#### 3. 
+#### 3. Lalu kita akan mengukur `Throughput`, untuk melihat time span dan bytes kita harus pergi ke statistics lalu `Capture File Properties`
+![3](13.jpg)
+
+#### 4. Lalu, kita catat time span dan bytes, dan kita cari maka nanti hasilnya akan sama dengan Avarage bits/s
+![4](4.jpg)
+
+#### 5. Kita cari dengan rumus seperti dibawah ini
+![5](5.jpg)
